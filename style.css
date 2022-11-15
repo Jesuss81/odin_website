@@ -1,31 +1,50 @@
 body{
-    background-color: rgb(211, 173, 128);
+    background-color: black;
     font-family: "roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
-a{
+a:active, a:hover, a:visited, a:link{
     text-decoration: none;
-    
+    color: black;
 }
 
 .header{
     display: flex;
-    flex: auto;
-    justify-content: space-evenly;
+    height: 30px;
     align-items: center;
-    background-color: rgb(26, 65, 52);
-    font: white;
-    padding: 16px;
+    justify-content: space-around;
+    background-color: orange;
+    color: black;
+    padding: 8px;
 }
 
 .hlogo{
-    justify-self: flex-start;
+    /*justify-self: flex-start;*/
+    font-size: 22px;
+    font-weight: 900;
+    justify-content: flex-start;
+    padding-left: 200px;
 }
 
 .hlist{
     display: flex;
     flex: 1;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    gap: 15px;
+    padding-right: 200px;
+}
+
+.content1{
+    display: flex;
+    flex: 1;
+}
+
+.leftpart1{
+    display: flex;
+    flex-direction: column;
 }
