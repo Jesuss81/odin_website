@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(211, 173, 128);
+    font-family: "roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.header{
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(26, 65, 52);
+    font: white;
+    padding: 16px;
+}
+
+.hlogo{
+    justify-self: flex-start;
+}
+
+.hlist{
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
