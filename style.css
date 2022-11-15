@@ -41,10 +41,80 @@ a:active, a:hover, a:visited, a:link{
 
 .content1{
     display: flex;
-    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: orange;
+    padding: 100px 200px;
+    color: black;
+    gap: 100px;
 }
 
 .leftpart1{
+    width: 370px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
+
+.title{
+    font-size: 34px;
+    font-weight: 900;
+    
+}
+
+.leftpart1 .button{
+    justify-self: flex-start;
+    border-radius: 70%;
+    width: auto;
+    height: auto;
+}
+
+.content2{
+    background-color: white;
+    color: black;
+    text-decoration-style: none;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.content2head{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content2img{
+    display: flex;
+    gap: 50px;
+}
+
+.img2{
+    border-radius: 20px;
+}
+
+.content2subtext{
+    display: flex;
+    gap: 50px;
+}
+
+.text2{
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
