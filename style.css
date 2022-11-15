@@ -44,9 +44,21 @@ a:active, a:hover, a:visited, a:link{
     justify-content: flex-start;
     align-items: flex-start;
     background-color: orange;
-    padding: 100px 200px;
+    padding: 80px 200px;
     color: black;
     gap: 100px;
+    font-style: italic;
+}
+
+.button1{
+    width: 120;
+    height: 40;
+    border-radius: 10px;
+    border: 4px inset black;
+    background-color: orange;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
 }
 
 .leftpart1{
